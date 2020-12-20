@@ -1,0 +1,144 @@
+/* Responses */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: darkslategrey;
+	color: floralwhite;
+    font-family: 'Roboto Mono', monospace;
+	font-weight: bold;
+	line-height: 1.4;
+	font-size: 16px;
+	margin: 1em;
+	padding: 0;
+}
+
+
+h1 {
+	font-size: 4em;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 1em 0em 1em 2em;
+}
+
+h2 {
+	font-size: 2em;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 1.5em 0em 1em .5em;
+}
+h4 {
+	margin: 1em 0em 0em 1em;
+	text-transform: uppercase;
+	font-size: 50px;
+	color: floralwhite;
+	opacity: 20%;
+	margin: 1em 2em 1em 1em;
+	transform: rotate(2deg);
+}
+
+h4:hover {
+	color: darkred;
+	opacity: 100%;
+}
+
+h5 {
+	margin: 0em .8em 0em 1.5em;
+	transform: rotate(90deg);
+	color: coral;
+	font-size: 25em;
+	border-image: wrap;
+}
+
+h5:hover {
+	color: cadetblue;
+}
+h6 {
+	margin: 1em 0em 0em 10em;
+	transform: rotate(90deg);
+	color: darkred;
+	font-size: 6em;
+}
+
+p {
+	margin: -3em 5em 2em 8.1em;
+
+}
+
+a {
+	color: floralwhite;
+	transition: all 0.2s;
+	text-decoration: none;
+}
+
+a:hover {
+	color: darkred;
+}
+
+.button {
+	border: 1px solid floralwhite;
+	border-radius: 2em;
+	padding: 0.25em 1em;
+	text-transform: uppercase;
+	text-decoration: none;
+	display: inline-block;
+	margin: 0 0 1em 0;
+}
+
+.button:hover {
+	background-color: floralwhite;
+	color: darkred;
+}
+
+.grid {
+	grid-template-columns: 25%;
+	align-content: center;
+	min-height: 20vh;
+	margin-left: 8em;
+}
+
+@media (min-width: 40em) {
+	.grid {
+		grid-template-columns: 25%;
+	}
+}
+
+main {
+	margin-top: 2em;
+}
+
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: cadetblue;
+	color: darkslategrey;
+	padding: .5em;
+	width: 100%;
+	text-align: right;
+	font-weight: lighter;
+}
+
+img {
+	border: solid cadetblue .5em;
+	margin: 0em 0em 0em 10em;
+	width: 26%;
+}
+
+.img {
+	width: 50%;
+	margin: 0em 0em 0em 3em;
+}
+.img2 {
+	max-width: 100%;
+	margin: -10em 5em 0em 5em;
+}
+
+.response1 {
+	transform: rotate(-6deg);
+	font-size: 30px;
+	text-transform: lowercase;
+}
+
